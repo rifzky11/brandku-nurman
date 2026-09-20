@@ -4,6 +4,7 @@ import { useNavigate } from "react-router";
 const navItems = [
   { label: "Home", path: "/" },
   { label: "About", path: "/about" },
+  { label: "Shop", path: "/shop" },
   { label: "Pricing", path: "/pricing" },
 ];
 

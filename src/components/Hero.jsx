@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useLocalStorageState } from "../hooks/useLocalStorageState";
 
 function Hero() {
-  const [angka, setAngka] = useState(0);
+  const [angka, setAngka] = useLocalStorageState("angka", 0)
 
   return (
     <section className="bg-slate-50 py-20 px-8 text-center">

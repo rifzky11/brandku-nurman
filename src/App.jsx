@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Shop from "./pages/Shop";
 import Pricing from "./components/Pricing";
 import { featureData } from "./data/features";
 
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home features={featureData} />} />
           <Route path="/about" element={<About />} />
+          <Route path="/shop" element={<Shop />} />
           <Route path="/pricing" element={<Pricing />} />
         </Routes>
 
